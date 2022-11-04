@@ -2,6 +2,7 @@ function createMatch (team1, hour, team2) {
     return `
          <li>
                 <img src="./assets/icon-${team1}.svg" alt="Bandeira de ${team1}">
+               
                 <strong>${hour}</strong>
                 <img src="./assets/icon-${team2}.svg" alt="Bandeira de ${team2}">
          </li>  
