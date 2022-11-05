@@ -26,6 +26,13 @@ document.querySelector("#app").innerHTML = `
       <img src="./assets/logo.svg" alt="Logo da NLW">
   </header>
   <main id="cards">
+    ${createCard( "20/11", "domingo",
+      createMatch("catar", "13:00", "ecuador")
+    
+    )
+      
+    }
+
     ${createCard("24/11", "quinta",
         createMatch("switzerland", "07:00", "cameroon")+
         createMatch("uruguay", "10:00", "south-korea") +
